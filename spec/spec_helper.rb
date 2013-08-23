@@ -6,5 +6,5 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
 ]
 SimpleCov.start { add_filter "/spec/" }
 
-require "lita-memegen"
+require "lita-eightball"
 require "lita/rspec"
