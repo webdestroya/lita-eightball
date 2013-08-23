@@ -4,7 +4,7 @@
 [![Code Climate](https://codeclimate.com/github/webdestroya/lita-eightball.png)](https://codeclimate.com/github/webdestroya/lita-eightball)
 [![Coverage Status](https://coveralls.io/repos/webdestroya/lita-eightball/badge.png)](https://coveralls.io/r/webdestroya/lita-eightball)
 
-**lita-eightball** is a handler for [Lita](https://github.com/jimmycuadra/lita) that allows you to roll an eight-ball
+**lita-eightball** is a handler for [Lita](https://github.com/jimmycuadra/lita) that allows you to roll an eight-ball.
 
 ## Installation
 
@@ -20,6 +20,8 @@ To roll the eightball, do any of these commands:
   
     Lita: 8ball
     Lita: eightball
+
+Alternatively, it will also accept `!8ball` in the chatroom.
 
 ## License
 
