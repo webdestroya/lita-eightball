@@ -21,8 +21,6 @@ To roll the eightball, do any of these commands:
     Lita: 8ball
     Lita: eightball
 
-Alternatively, it will also accept `!8ball` in the chatroom.
-
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)

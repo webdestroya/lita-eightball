@@ -8,7 +8,7 @@ module Lita
         "It is certain",
         "It is decidedly so",
         "Without a doubt",
-        "Yes – definitely",
+        "Yes - definitely",
         "You may rely on it",
         "As I see it, yes",
         "Most likely",
@@ -27,10 +27,8 @@ module Lita
         "Very doubtful"
       ]
       
-      route %r{8ball|eightball}i, :shake, command: true
+      route %r{8ball|eightball}i, :shake, command: true, help: { "8ball" => "Shakes the eightball" }
 
-      route %r{!8ball}i, :shake
-      
       def shake(response)
         response.reply RESPONSES.shuffle.first
       end
