@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-eightball"
-  spec.version       = "1.0.1"
+  spec.version       = "1.0.3"
   spec.authors       = ["Mitch Dempsey"]
   spec.email         = ["mitch@mitchdempsey.com"]
   spec.description   = %q{A Lita handler for shaking an eightball.}
@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 2.14"
   spec.add_development_dependency "simplecov"
   spec.add_development_dependency "coveralls"
+
+  spec.metadata = { "lita_plugin_type" => "handler" }
 end
